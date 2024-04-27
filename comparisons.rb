@@ -18,28 +18,39 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
+p "Is number of teachers greater than number of students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+p "Is number of teachers less than number of students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+p "Is number of teachers equal to string of teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+p "Is number of teachers not equal to number of students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+p "Is number of students greater than or equal to 20?" do number_students >= 20 end
+    p true
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+p "Is number of students greater than or equal to 21?" do number_students >= 21 end 
+    p false
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+p "In this comparision, is number of students less than or equal to 20?" do number_students <= 20 end
+    p true
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+p "In this comparison, is the number of students less than or equal to 21?" do number_students <= 21 end
+    p true
 # this should print: true
 
 
@@ -53,11 +64,11 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Puts is printing to the console that 4 is less than 9 and return will be a boolean.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Books variable has an integer value of 3. Puts is printing the comparison of 4 and books. 
 
 friends = 6
 siblings = 2
