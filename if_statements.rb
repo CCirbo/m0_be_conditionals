@@ -56,13 +56,24 @@ end
 # at least two cups of flour and sauce.
 
 # You should be able to change the variables to achieve the following outputs:
-# If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
-# If cups_of_flour = 5 and has_sauce = false, print "I cannot make pizza"
-# If cups_of_flour = 2 and has_sauce = true, print "I can make pizza"
-# If cups_of_flour = 3 and has_sauce = true, print "I can make pizza"
+#   If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
+#   If cups_of_flour = 5 and has_sauce = false, print "I cannot make pizza"
+#   If cups_of_flour = 2 and has_sauce = true, print "I can make pizza"
+#   If cups_of_flour = 3 and has_sauce = true, print "I can make pizza"
 
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
-has_sauce = true
+cups_of_flour = 5
+has_sauce = false
+
+if cups_of_flour <= 1 && has_sauce == true
+  p "I cannot make a pizza."
+elsif cups_of_flour == 0 && has_sauce == false
+  p "I cannot make a pizza"
+elsif cups_of_flour != 0 && has_sauce == false 
+  p "I cannot make a pizza."
+else cups_of_flour >= 2 && has_sauce == true
+  p "I can make a pizza."
+end
+
