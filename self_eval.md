@@ -1,5 +1,11 @@
 # Self Evaluation
 
-1. When is it useful to use a `conditional` in your code?
-1. If you could do this assignment over, what would you do differently?
-1. What about your thinking, learning, or work today brought you the most satisfaction? Why?
+1. When is it useful to use a `conditional` in your code? - *When you need to evaluate a true or false statement.*
+1. If you could do this assignment over, what would you do differently? - *Well, I didn't read it thoroughly and started at the challenges instead of doing the work in the order it was laid out. This caused me much panic and anxiety until I realized that I needed to start with comparisons first. When I did that, and had practice with the other lessons, by the time I got to the challenge, I felt so much better because I had gone over the tools needed to do the challenge. In fact, I hope to do all three of them when I get all of my assignments done and ready to turn in.*
+1. What about your thinking, learning, or work today brought you the most satisfaction? *When I looked at them today, after a good night's sleep and started at the beginning, it was a lot of fun! I really enjoyed all of this Conditional CFU.* Why? - *Up until today, I had panicked a couple of times, Friday night especially as it felt I had not retained anything I had learned over the week. My son-in-law is a Turing alumni and he came over and helped me go over previous work and concepts. That was a huge help and I do look forward now to doing that with my cohorts once I am in Mod 1.* 
+
+- *Then today, my husband, who has no coding experience, was able to help me simply by letting me explain what I was trying to do and in that process of telling him why my code wasn't working but what I wanted my code to do, I was able to find a solution. It was fantastic!*
+
+- *I realized last night that I have to let go of my "pride" in many ways and know that this is hard and the struggle is worth it. I would rather try and fail than give up.That got rid of a lot of anxiety.*
+
+- *Most suprisingly to me, I realized that I needed, really needed other people with me to "help" me solve some of the problems. They didn't actually give me answers, it was their presence and talking it over with them that helped me. It is not usually like that for me, I usually do my best work by myself--and I still needed that, it was so suprising how much though I got done with those moments of people time.*
