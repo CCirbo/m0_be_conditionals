@@ -90,18 +90,24 @@ puts 4 < 9
 
 books = 3
 puts 4 < books
-# YOU DO: Books variable has an integer value of 3. Puts is printing the comparison (or condtional) 
+# YOU DO: Books variable has an integer value of 3. A variable stores data that we can reference
+# again so we don't have to keep typing out. Books is the assignment operatior or the name we 
+# are giving the variable. The integer 3 is called the value being stored. Puts is printing the comparison (or condtional) 
 # of integer 4 less than books. This is a boolean and the answer will be false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Explain. Variable friends is assigned a value of 6. Siblings is assigned a value of 2. 
+# puts is printing friends less than siblings. This is a boolean, the answer will be true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Explain. Variable attendees is assigned a value of 9. Meals is assigned a value of 8. 
+# Puts will print attendees is not equal to meals. You could read this as puts variable attendees bang 
+# equal meals. The answer would be true. 
+
 
 
 #-------------------
