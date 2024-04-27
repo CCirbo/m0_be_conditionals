@@ -37,21 +37,41 @@ p "Is number of teachers not equal to number of students?", number_teachers != n
 p "Is number of students greater than or equal to 20?" do number_students >= 20 end
     p true
 # this should print: true
+# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
+# was number_students >= 20. But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
+# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
+# so after googling, I added the do in front and the end in back and then it worked. Something about
+# needing an end for the process. I am not sure why.
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 p "Is number of students greater than or equal to 21?" do number_students >= 21 end 
     p false
 # this should print: false
+# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
+# was number_students >= 21. But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
+# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
+# so after googling, I added the do in front and the end in back and then it worked. Something about
+# needing an end for the process. I am not sure why.
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 p "In this comparision, is number of students less than or equal to 20?" do number_students <= 20 end
     p true
 # this should print: true
+# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
+# was number_students <= 20. But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
+# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
+# so after googling, I added the do in front and the end in back and then it worked. Something about
+# needing an end for the process. I am not sure why.
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 p "In this comparison, is the number of students less than or equal to 21?" do number_students <= 21 end
     p true
 # this should print: true
+# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
+# was   number_students <= 21    But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
+# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
+# so after googling, I added the do in front and the end in back and then it worked. Something about
+# needing an end for the process. I am not sure why.
 
 
 #-------------------
@@ -64,11 +84,14 @@ p "In this comparison, is the number of students less than or equal to 21?" do n
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Puts is printing to the console that 4 is less than 9 and return will be a boolean.
+#YOU DO: This is a boolean which will show on your console (puts) if the intger 4 is 
+#less than (less than is a comparison operator) the integer 9. The answer will be true--since booleans 
+#deal with true or false statements. This is an example of a conditional or conditional statement.
 
 books = 3
 puts 4 < books
-# YOU DO: Books variable has an integer value of 3. Puts is printing the comparison of 4 and books. 
+# YOU DO: Books variable has an integer value of 3. Puts is printing the comparison (or condtional) 
+# of integer 4 less than books. This is a boolean and the answer will be false.
 
 friends = 6
 siblings = 2
