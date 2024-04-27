@@ -83,7 +83,8 @@ p "In this comparison, is the number of students less than or equal to 21?" do n
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
-puts 4 < 9
+puts 4 < 9 
+
 #YOU DO: This is a boolean which will show on your console (puts) if the intger 4 is 
 #less than (less than is a comparison operator) the integer 9. The answer will be true--since booleans 
 #deal with true or false statements. This is an example of a conditional or conditional statement.
@@ -129,17 +130,27 @@ loves_treats = true
 age = 1
 
 # YOU DO:
-# Determine if the dog loves to play and loves treats
-
-
+# Determine if the dog loves to play and loves treats 
+p "Loves to play and loves treats?"
+    puts loves_to_play && loves_treats 
 # Determine if the dog loves to play and loves the dog park
-
+p "Loves to play and loves the dog park?"
+    puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+p "Loves to play or loves the dog park?"
+    puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-# Assume that a dog is a puppy if it is less than 2 years old.
+p "Loves to play and is a puppy?"
+    puts loves_to_play && age == 1
 
-# What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# Assume that a dog is a puppy if it is less than 2 years old.
+# What did your final line of code evaluate to?  True
+# Why do you think that is? Explain.
+# ANSWER: I am not really sure of my answer here. I played with it
+# several times, and I thought about an if/else statements. In the end, I am going with this one
+# because I wanted the answer to be true based on the variables stated. The age of my dog is 1,
+# so that makes them a puppy based on the information that a dog under 2 is a puppy. Also, we 
+# know that loves_to_play is true. Since I knew both things were true, I wrote this to be true.
+# Not sure if that is correct or not!
