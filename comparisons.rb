@@ -34,44 +34,23 @@ p "Is number of teachers not equal to number of students?", number_teachers != n
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-p "Is number of students greater than or equal to 20?" do number_students >= 20 end
-    p true
+p "Is number of students greater than or equal to 20?",  number_students >= 20    
 # this should print: true
-# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
-# was number_students >= 20. But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
-# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
-# so after googling, I added the do in front and the end in back and then it worked. Something about
-# needing an end for the process. I am not sure why.
+
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-p "Is number of students greater than or equal to 21?" do number_students >= 21 end 
-    p false
+p "Is number of students greater than or equal to 21?",  number_students >= 21  
 # this should print: false
-# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
-# was number_students >= 21. But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
-# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
-# so after googling, I added the do in front and the end in back and then it worked. Something about
-# needing an end for the process. I am not sure why.
+
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-p "In this comparision, is number of students less than or equal to 20?" do number_students <= 20 end
-    p true
+p "In this comparision, is number of students less than or equal to 20?",  number_students <= 20 
 # this should print: true
-# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
-# was number_students <= 20. But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
-# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
-# so after googling, I added the do in front and the end in back and then it worked. Something about
-# needing an end for the process. I am not sure why.
+
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-p "In this comparison, is the number of students less than or equal to 21?" do number_students <= 21 end
-    p true
+p "In this comparison, is the number of students less than or equal to 21?",  number_students <= 21   
 # this should print: true
-# NOTE ABOUT THESE--in my terminal, in an irb session, the code that worked and gave me the correct answer
-# was   number_students <= 21    But when I ran it here, in VS Code by running ruby comparisons.rb, it gave
-# me this error, "syntax error, unexpected end-of-input (SyntaxError)". I could not get it to work.
-# so after googling, I added the do in front and the end in back and then it worked. Something about
-# needing an end for the process. I am not sure why.
 
 
 #-------------------
@@ -143,14 +122,16 @@ p "Loves to play or loves the dog park?"
 
 # Determine if the dog loves to play and is a puppy
 p "Loves to play and is a puppy?"
-    puts loves_to_play && age == 1
+    puts loves_to_play && age < 2
 
 # Assume that a dog is a puppy if it is less than 2 years old.
-# What did your final line of code evaluate to?  True
+# What did your final line of code evaluate to?   True
 # Why do you think that is? Explain.
-# ANSWER: I am not really sure of my answer here. I played with it
-# several times, and I thought about an if/else statements. In the end, I am going with this one
-# because I wanted the answer to be true based on the variables stated. The age of my dog is 1,
-# so that makes them a puppy based on the information that a dog under 2 is a puppy. Also, we 
-# know that loves_to_play is true. Since I knew both things were true, I wrote this to be true.
-# Not sure if that is correct or not!
+# ANSWER: I didn't get this one at first, clearly as I was asked to redo it.
+# I was fixated on the dog's age in the variable, which was given as 1, however,
+# that was not what the question was asking, it was saying write a code that will check if a
+# dog is a puppy or not and if it loves to play. In order to know if a dog is a puppy,
+# assume that a dog is a puppy if under 2 year old. So it doesn't matter what is in the variable,
+# the variable will change as we type in a different age, the code has to be set up so that any
+# age BEYOND 2 will come back as false, and any age UP TO 2, but not including 2 (because it says less than 2)
+# will come back as true. This is a long answer but I wanted to let you know I do now understand.
